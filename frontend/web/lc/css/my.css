@@ -1,0 +1,92 @@
+:root {
+    --t : #A4A4A4;
+}
+.user_pic a img{object-fit: cover;border-radius: 50%;width: 100%;height: 100%;}
+
+.mobile_toggle { cursor: pointer; display: none; flex: 0 0 auto; z-index: 18;
+    width: 32px; height: 32px; position: absolute; overflow: hidden;margin-top: 40px;right: 20px }
+.mobile_toggle span { height: 3px; width: 100%; background: var(--t); margin: auto;
+    display: block; position: absolute; border-radius: 2px; transition: .3s; }
+.mobile_toggle span:first-child { top: 5px; }
+.mobile_toggle span:last-child { bottom: 5px; }
+.mobile_toggle span:nth-child(2) { top: 0; bottom: 0; margin: auto; }
+.mobile_toggle.active span:first-child { margin-top: 0; top: 50%; transform: rotate(45deg); }
+.mobile_toggle.active span:last-child { margin-bottom: -3px; bottom: 50%; transform: rotate(-45deg);}
+.mobile_toggle.active span:nth-child(2) { left: 100%; opacity: 0; }
+
+.mobile_only{display: none}
+
+
+
+@media (max-width: 701px) {
+    .logo{width: 100%;text-align: center;display: flex;justify-content: center;padding: 52px 0 40px 0px;}
+    .mobile_toggle { display: block; }
+    .header{display: flex;align-items: center;justify-content: space-between}
+    .mobile_only{display: block;}
+    .desktop_only{display: none}
+    .logo a {max-width: 167px;display: block}
+    .header{align-items: flex-start}
+    .header:before{transform: none;background: url(../../game/img/main_bg.png) no-repeat 50% 0;width: 440px;        height: 346px;}
+}
+.left.open{position: absolute;display: block; width: 100%;left: 0;top: -355px;z-index: 111;border-radius: 0;border: none;min-height: calc(100% + 355px)}
+
+.study__heading + .pay__history-balance{margin-top: 40px;height: auto;width: 100%;padding: 0}
+.study__heading + .pay__history-balance th{padding: 0 5px}
+.study__heading + .pay__history-balance td{padding: 25px 5px}
+.study__heading + .pay__history-balance td:last-child{text-align: center}
+nav li li.active a{color: var(--acc);}
+
+.entry_data{position: relative}
+.entry_data button{position: absolute;top: 0;left: 0;width: 100%;height: 100%;opacity: 0;}
+.error-summary{color: red}
+.height650{max-height: 650px;height: auto}
+
+@media (max-width: 751px) {
+    .profit_table{max-width: 100%;}
+    .profit_box{max-width: 100%;}
+    .centh5_mobile{text-align: center}
+    .cent_flex{justify-content: center}
+}
+
+.home_icon:before {
+    background: url(../img/home.png) no-repeat 50% 50%;
+}
+
+.pay__top-row{flex-wrap: wrap}
+.pay__nav{width: 100%;justify-content: center}
+.pay__balance.gr{color: var(--gt1)}
+.rounds_text{color: #fff;font-size: 18px;margin-bottom: 40px}
+.rounds__heading{margin-bottom: 20px}
+.rounds__list{margin-top: 32px}
+.study__heading{display: flex;align-items: center;color: #fff}
+.study__heading svg{height: 30px;width: auto;margin-left: 5px}
+.pay__balance:first-child{padding-right: 40px}
+
+.round_graphic{max-width: 50%;}
+.apexcharts-subtitle-text{fill: #8D8D8D}
+@media (max-width: 751px) {
+    .round_graphic{max-width: 100%;width: 100%}
+    .pay__balance{width: 100%;text-align: center}
+    .pay__heading{justify-content: center}
+    .study__heading{text-align: center;justify-content: center}
+    .study__heading-text{text-align: center}
+    .rounds__heading{text-align: center}
+    .rounds_text{text-align: center}
+    .pay__balance:first-child{padding-right: 0px}
+    .page_box h4{text-align: center}
+    .pay__history-balance td{padding: 16px 5px}
+    .study__levels-accordion-btn-title{font-size: 16px}
+}
+@media (max-width: 641px) {
+    .pay__block-copy-links-item-text span {word-break: break-all}
+}
+
+#captcha{display: block;margin: 0 auto}
+
+.pay__block-copy-links-item{display: block}
+.pay__block-copy-links-item-text b{font-size: 18px;}
+@media (max-width: 641px) {
+    .pay__block-copy-links-item-text b {font-size: 14px;}
+}
+.help-block-error{color: var(--acc)}
+iframe{z-index: 1}

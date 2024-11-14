@@ -1,0 +1,14 @@
+<svg id="Выход.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.813" height="71.47" viewBox="0 0 72.813 71.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Прямоугольник_скругл._углы_1" data-name="Прямоугольник, скругл. углы 1" class="cls-1" d="M117.905,1851.63v11.19a9.011,9.011,0,0,1-9,9.01H74.687a9.011,9.011,0,0,1-9-9.01v-50.48a9.011,9.011,0,0,1,9-9.01H108.9a9.011,9.011,0,0,1,9,9.01v10.18" transform="translate(-64.188 -1801.84)"/>
+  <image id="right-arrow_копия" data-name="right-arrow копия" x="35.813" y="24.16" width="37" height="26" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAaCAYAAAAwspV7AAABjklEQVRIic2Wvy8EURDHPyfOjwRRoVFTkbhGo6AhKiot3SUqGvcXaIk/QEJCSSUSIlo/Ok4koidch4hEbmQub2Pu7V5yJPf2vslkdzbzdr4733nzNiMiBEI7cAp0ATPAS820SiqQzckvjkQkUytvS4xl49Bm3jwLLNfKFFK+buAR6HP+F5AD7vzAkJV6AxaNrz22767VSNK0wbYl1djw86VBqkNEih6xaRsTsqcsRoArI92ze/ZK4J6yuAHWjD8AbOvGq3gJ5Q1lqtKxJ2M+kk/ZrbjyKb6B99i3/Q263T/rWNEP5I2va3JKah44iIWnhzPtqeEmIqQYV1KXscfp4j4aCSrh6D+odCZO5PrRAyyZ6DIwmebuU9vxdt96WhM9sgWP0LWIZNOc6INugPY6/wMYAx5IaaJrzl1DSLEaEaogoayNtoIn26GfL7R8KtEFkHX+kztJSjYopHytwJ4hhPvpK/mBIUlNeKfHJnASiwpMqmzub4FCLMIhZE+pfOfAEDAFFJuBVARVx1atGsAPswlpxVN6Wf0AAAAASUVORK5CYII="/>
+</svg>

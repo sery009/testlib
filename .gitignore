@@ -1,0 +1,8 @@
+/vendor
+/console
+/backend
+/frontend/runtime
+/frontend/tests
+/common/ext
+/common/extensions
+/common/mail
