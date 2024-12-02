@@ -3,10 +3,10 @@ namespace common\models;
 use Yii;
 class Config
 {
-    public static $bot_api_key='1747113049:AAFxC4J7XcRjCMbCV5aI0c4vXpX43B0r4ds';
-    public static $CASHALOT_API_BASE_URL='https://api.cash-a-lot.io';
-    public static $CASHALOT_API_KEY= '7af8da73b22808198d3af80c7dba12b578097034';
-    public static $CASHALOT_SECRET_KEY='jzs3QRnA:o|HUnj1pc3vKxCEle!g5|zBS&485L7*2oI23L%MM.2';
+    public static $bot_api_key='***';
+    public static $CASHALOT_API_BASE_URL='***';
+    public static $CASHALOT_API_KEY= '***';
+    public static $CASHALOT_SECRET_KEY='***';
 
     //public static $bot_api_key='';
     public static function sendMessage($html_template,$params,$to,$subject)
